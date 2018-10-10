@@ -17,7 +17,7 @@ alias x_in_docker="docker run -d -u 1000:1000 --rm -e HOME \
 alias signal='x_in_docker kayvan/signal'
 ```
 
-Launch the app by simply typing `signal` on your bash shell.
+Launch the app by simply typing `signal` on your bash console.
 Do not forget to start docker deamon `sudo systemctl start docker` 
 
 ## MacOS: Using this image
