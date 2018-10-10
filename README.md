@@ -6,7 +6,7 @@ To run this image, share the X11 socket or use any
 of the other methods to run X11 Apps in Docker.
 
 For example, you can run the image like this on Linux. With this snippet
-in your `~/.bahsrc`:
+in your `~/.bashrc`:
 
 ```
 alias x_in_docker="docker run -d -u 1000:1000 --rm -e HOME \
@@ -17,7 +17,8 @@ alias x_in_docker="docker run -d -u 1000:1000 --rm -e HOME \
 alias signal='x_in_docker kayvan/signal'
 ```
 
-Launch the app by simply typing `signal` on your command line.
+Launch the app by simply typing `signal` on your bash shell.
+Do not forget to start docker deamon `sudo systemctl start docker` 
 
 ## MacOS: Using this image
 
